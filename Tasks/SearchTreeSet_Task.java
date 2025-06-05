@@ -3,6 +3,15 @@ import com.sun.source.tree.Tree;
 import java.util.Scanner;
 import java.util.TreeSet;
 
+
+// Task 5 - Search function with TreeSet
+// Objective: Simulate a search functionality.
+// Instructions:
+// Create a TreeSet of product names: Keyboard, Mouse, Monitor, CPU, Webcam.
+// Ask the user to enter a product name.
+// Check if the entered product exists in the set or not.
+// Print a message accordingly.
+
 public class SearchTreeSet_Task {
     public static void main(String[] args) {
         TreeSet<String> products = new TreeSet<>();
